@@ -29,7 +29,11 @@ To edit an existing repository:
 > 2. git commit -m "message"
 > 3. git push origin
 
-To clone and edit a repository:
+To remove a file from github:
+1. Go into file location in terminal.
+> 2. git rm \<file1> \<file2> \<file3>
+> 3. git commit -m "message"
+> 4. git push
 
 To make a new repository:
 1. First make a repository in GitHub. Make with README.
