@@ -69,3 +69,5 @@ ___
 ## .gitignore
 To ignore folder, do /{filename}
 config.js ignores ipa keys. Gives access to google stuff.
+
+new add
