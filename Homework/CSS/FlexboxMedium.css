@@ -1,0 +1,26 @@
+.nav-bar {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color:lightskyblue;
+    color: white;
+}
+.nav-bar-menu {
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 0;
+    
+
+}
+
+.nav-bar-item {
+    padding: 10px;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

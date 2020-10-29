@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+.heading {
+    position: sticky;
+    background-color: gainsboro;
+    font-size: 30px;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+    padding: 40px;
+}
+
+.heading2 {
+    top: 0;
+    position: sticky;
+    font-size: 30px;
+    background-color: gainsboro;
+    padding: 10px;
+}

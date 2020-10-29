@@ -1,0 +1,17 @@
+.first {
+    padding: 10px;
+    border: 1px;
+    background-color: red;
+}
+
+.second {
+    padding: 10px 100px;
+    border: 1px red solid;
+
+}
+
+.third {
+    padding: 100px 30px 200px 5px;
+    background-color: darksalmon;
+    margin: 100px 4px 4px 4px;
+}

@@ -1,0 +1,56 @@
+.main-container {
+    display: flex;
+    border: 1px solid black;
+    height: 60vh;
+}
+.columns {
+    display: flex;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.first {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.second {
+    flex-grow: 1;
+}
+.third {
+    flex-grow: 2;
+}
+.fourth {
+    flex-grow: 1;
+}
+.fifth {
+    flex-grow: 2;
+}
+
+.first-one {
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+}
+
+
+.first-one-first {
+    flex: 2;
+    width: 100%;
+}
+.first-one-second {
+    flex: 1;
+}
+
+
+
+
+.first-two {
+    flex-grow: 1;
+}
+.first-three {
+    flex-grow: 2;
+}

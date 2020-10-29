@@ -1,0 +1,19 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+h1 {
+    color: grey;
+    background-color: antiquewhite;
+}
+
+.main-content {
+    color: thistle;
+}
+
+.main-content > h3 {
+    color: orchid;
+}
+
+a:hover {
+    color: palevioletred;
+}

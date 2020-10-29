@@ -1,0 +1,19 @@
+.active {
+    border: 1px black solid;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+li {
+    background-color: lightblue;
+}
+
+ul, section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    font-weight: bold;
+}

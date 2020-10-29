@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 30vh;
+    border: 1px solid grey;
+}
+
+.first {
+    background-color: rgba(127, 255, 212, 0.808);
+}
+
+.second {
+    background-color: lightpink;
+}
+
+.third {
+    background-color: rgba(152, 251, 152, 0.851);
+}
