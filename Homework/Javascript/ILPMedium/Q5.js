@@ -1,7 +1,7 @@
 function printSquare(size) {
     let i = 0
     while (i < size) {
-        row = ""
+        let row = ""
         j = 0
         while (j < size) {
             row += '*'
@@ -11,4 +11,16 @@ function printSquare(size) {
         i++
     }
 }
-printSquare(3)
+printSquare(4)
+
+const printSquare2 = function (v) {
+    let s = '*'.repeat(v)
+    i = 0
+    while (i < v) {
+        console.log(s)
+        i++
+    }
+}
+
+let s = '*'.repeat(v) + '\n'
+console.log(s.repeat(s))

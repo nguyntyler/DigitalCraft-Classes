@@ -2,10 +2,10 @@ function cipher(text, offset) {
     // Created to concact the resulted offsetted letter.
     let result = ""
 
-    // Loops through each letter.
+    // Loops through each letter and gets the index.
     for (letter in text) {
 
-        // .charCodeAt finds the unicode of the character.
+        // .charCodeAt finds the unicode of the character using the index.
         let code = text.charCodeAt(letter)
 
         // Checking for capital letters. Unicode for A-Z is 65-90.

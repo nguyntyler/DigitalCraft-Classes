@@ -1,17 +1,13 @@
 function tipAmount(billAmt, service) {
-    let tip = 0
     switch (service) {
         case 'bad':
-            tip = billAmt * 0.10
-            break;
+            return billAmt * 0.10
         case 'fair':
-            tip = billAmt * 0.15
-            break
+            return billAmt * 0.15
         case 'good':
-            tip = billAmt * 0.2
-            break
+            return billAmt * 0.2
     }
     console.log(`Your total tip amount is ${tip}`)
 }
 
-tipAmount(200, 'bad')
+console.log(tipAmount(200, 'bad'))
