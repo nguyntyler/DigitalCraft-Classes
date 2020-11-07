@@ -4,7 +4,7 @@
 // add 4 more letters one at a time to the end of the array.
 // remove the first item of the array.
 // join all of the letters together and send the results to the console.
-// (bonus) sort the letters!
+// (bonus) sort the letters!!
 
 const myArr = ['a', 'd', 'w', 'g', 's', 'q', 'j', 'b', 'v', 'c']
 
