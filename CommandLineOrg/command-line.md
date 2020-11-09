@@ -27,7 +27,7 @@ When you make a git, it installs 3 locations.
 
 Github has a remote repository. When you *clone* a file, it creates two copies, one in the **local repository** and another in the **working directory**. 
 
-All changes happen in the working directory and once you are ready to save and update, you add and commit into the **staging area** and into the **local repository**. Pushing uploads it back into the remote repository.
+All changes happen in the working directory and once you are ready to save and update, you add and commit into the **staging area** and into the **local repository**. Pushing uploads it back into the remote repository..
 
 When you *pull* a file, it goes into your local repository first and then goes straight into the working directory.
 
