@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="username"> Username </label>
+    <input id="username" class="special" name="user-name" type="password" placeholder="Username" />
+
+    <input id="password" class="special" name="user-name" type="checkbox" />
+
+    <label> Nothing
+        <input id="nothing" class="special" name="user-name" type="text" />
+    </label>
+
+    <label for="agree">Do you agree?</label>
+    <input type="checkbox" id="agree" name="agree" value="IAgree" />
+    <div class="checkbox-group">
+        <label> Cars
+            <input value="cars" name="transport" type="checkbox">
+        </label>
+        <label> Trains
+            <input value="trains" name="transport" type="checkbox">
+        </label>
+        <label> Planes
+            <input value="planes" name="transport" type="checkbox">
+        </label>
+
+    </div>
+
+    <div class="checkbox-group">
+        <label> Cars
+            <input value="cars" name="transport" type="radio">
+        </label>
+        <label> Trains
+            <input value="trains" name="transport" type="radio">
+        </label>
+        <label> Planes
+            <input value="planes" name="transport" type="radio">
+        </label>
+    </div>
+    <label for="favorite-food">Favorite Food</label>
+    <select name="favorite-food" id="favorite-food">
+        <option value="pizza">Pizza (Ninja Turtles)</option>
+        <option value="mushrooms">Shrooms (Mario)</option>
+        <optgroup label="Sweets">
+            <option value="doughnut"> Doughnuts (Homer)</option>
+        </optgroup>
+    </select>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
