@@ -1,7 +1,8 @@
 export const element = (tag, options = {}) => {
     let el = document.createElement(tag);
+    for (let [key, value] of Object.entries(options))
 
-    return el;
+        return el;
 }
 
 export const getEl = (query) => {

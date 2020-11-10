@@ -1,7 +1,11 @@
 import { getEl, element } from "./module/Elements.js"
 
 const start = () => {
-    console.log("dom is loaded and we are ready")
+    let main = getEl("#main")
+    let formHolder = makeEl("div", { id: "form-holder" });
+    let form = makeEl("form", { id: "todo-form" });
+    form.addEventListener("submit", (evt) => {
 
+    })
 }
 document.addEventListener("DOMContentLoaded", start)
