@@ -1,7 +1,7 @@
 // Make an array of ship objects (at least 3). Each ship needs a name, topSpeed, acceleration, and cargo capacity.
 // console.log the name and top speed of the 2nd ship.
 // loop through the array and print out every stat in a key:value style.
-// (Bonus) sort the array by the ship with the fastest speed and console log it out.
+// (Bonus) sort the array by the ship with the fastest speed and console log it out..
 
 let ships = [
     {
