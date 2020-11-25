@@ -2,7 +2,7 @@ const http = require("http");
 const generateContent = require("./modules/generateContent");
 const serveFile = require("./modules/serveFile");
 
-const addVisit = require("./modules/visitCounter");
+const addVisit = require("./visitCounter");
 
 const port = 6677;
 

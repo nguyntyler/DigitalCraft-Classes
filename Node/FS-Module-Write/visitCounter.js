@@ -1,11 +1,6 @@
 const fs = require("fs");
 
-let visits = JSON.parse(
-  fs.readFileSync(
-    "/Users/tylernguyen/DigitalCrafts/Class/Node/FS-Module-Write/visits.json",
-    "utf8"
-  )
-);
+let visits = JSON.parse(fs.readFileSync("./visits.json", "utf8"));
 console.log(visits);
 
 const addVisit = (address) => {
