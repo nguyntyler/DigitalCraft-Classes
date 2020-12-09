@@ -15,8 +15,13 @@ app.get("/", (req, res) => {
 	res.render("home1");
 });
 
-app.get("/lift-off", (req, res) => {
-	res.render("lift-off");
+app.get("/lift-off/:name", (req, res) => {
+	const { name } = req.params;
+	res.render("lift-off", {
+		locals: {
+			name,
+		},
+	});
 });
 
 server.listen(port, () => {
