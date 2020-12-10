@@ -1,0 +1,12 @@
+${header}
+<div id="main-container">
+    <h1>Click on a pet to see them!</h1>
+    <ul>
+        ${
+            all.map((pet, idx) => `
+            <li id='pet-list'><a href="/pets/${idx}">${pet.name}</a></li>
+            `).join(" ")
+        }
+    </ul>
+</div>
+${footer}

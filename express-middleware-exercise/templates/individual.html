@@ -1,0 +1,19 @@
+${header}
+<div id="main-container">
+    <h1>${pet.name}</h1>
+    <div id="content-container">
+        <div class="content" id="pet-image-container">
+            <img  id="pet-image" src="/images/${pet.name}.jpg" alt="A picture of ${pet.name}">
+        </div>
+        <div class="content" id="pet-details-container">
+            <p>${pet.name} is a ${age} year old ${breed}.<br>He enjoys:</p>
+            <ul>
+                ${likes.map(like=> `
+                    <li>${like}</li>
+                    `).join(' ')}
+            </ul>
+        </div>
+    </div>
+    <p>To go back to the main list: <a href="/pets">Click Here</a></p>
+</div>
+${footer}
