@@ -12,10 +12,7 @@
 3. In JavaScript, write an example of the kind of data that is in the Model layer.
 
 ```js MODEL LAYER
-const db = [
-    {name:"becky"}
-    {name:"johnny"}
-]
+const db = [{ name: "becky" }, { name: "johnny" }];
 ```
 
 4. In HTML, write an example of how that data is formatted for the View.
