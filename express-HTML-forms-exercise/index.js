@@ -17,7 +17,6 @@ const db = [
 		age: 1,
 		breed: "Pomeranian",
 		description: "Fun, lovable dog that enjoys napping on tall surfaces.",
-		id: "1",
 	},
 	{
 		name: "Taro",
@@ -25,16 +24,18 @@ const db = [
 		breed: "American Eskimo",
 		description:
 			"Energetic, charismatic, and enjoys lots of cuddles and rubs.",
-		id: "2",
 	},
 	{
 		name: "Appa",
 		age: 1,
 		breed: "Pomeranian",
 		description: "Will eat anything in sight. Please beware.",
-		id: "3",
 	},
 ];
+
+const db2 = [];
+
+app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
 	res.render("home", {
@@ -52,9 +53,24 @@ app.get("/items", (req, res) => {
 	});
 });
 
-app.get("/items:id", (req, res) => {
+app.get("/create", (req, res) => {
+	res.render("create");
+});
+
+app.post("/create", (req, res) => {
+	const { firstName, lastName, age } = req.body;
+	db2.push({ firstName, lastName, age });
+	console.log(db2);
+	res.redirect("/thank-you");
+});
+
+app.get("/thank-you", (req, res) => {
+	res.render("thank-you");
+});
+
+app.get("/items/:id", (req, res) => {
 	const { id } = req.params;
-	const target = ;
+	const target = db[id];
 	res.render("individual", {
 		locals: {
 			target,
