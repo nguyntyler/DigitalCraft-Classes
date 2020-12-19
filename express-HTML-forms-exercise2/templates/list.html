@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Click on a dog to view!</h1>
+    <ul>
+        ${db.map((dog, idx) => `
+            <li><a href="/dogs/${idx}">${dog.name}</a> : ${dog.breed}</li>
+            `).join(' ')}
+    </ul>
+    <ol>
+        ${thoughtsDB.map(thought => `
+            <li>${thought.thoughts}</li>
+            `).join(' ')}
+    </ol>
+</body>
+</html>
