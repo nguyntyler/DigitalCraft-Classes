@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SALE ITEMS</h1>
+    <ol>
+        ${
+            isSale.map(i => `
+            <li>
+                ${i.name} is on sale at ${i.price}. (Originally at: ${i.originalPrice})
+            </li>`).join(' ')
+            
+        }
+    </ol>
+</body>
+</html>
